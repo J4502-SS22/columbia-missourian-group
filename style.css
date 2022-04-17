@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar{
-  background-color: #BFF0D4
+background-color: #BFF0D4;
 }
 .navbar a {
   float: left;
@@ -82,7 +82,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #BFF0D4;
   color: #2f4778;
 }
-
 
 .main{
   margin-left: 15em
