@@ -2,7 +2,7 @@ body {
   font-family: "Domine", serif;
   font-size: 12pt;
   color: black;
-  background-color: #B8E2C8;
+  background-color: #ffffff;
   margin-left: 1000px;
 }
 
@@ -54,6 +54,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
     line-height: 1.1;
     font-weight: 700;
+}
+.sidebar{
+  width: 10em;
+ position: fixed;
+ z-index: 1;
+ top: 1em;
+ left: 1em;
+ background: #ABC8C7;
+ overflow-x: hidden;
+ padding: 1em;
+}
+
+.main{
+  margin-left: 15em
 }
 .wrapper {
     margin: 0 auto;
