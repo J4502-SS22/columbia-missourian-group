@@ -66,6 +66,25 @@ h1, h2, h3, h4, h5, h6 {
  padding: 1em;
 }
 
+.navbar{
+  background-color: #BFF0D4
+}
+.navbar a {
+  float: left;
+  color: #2f4778;
+  text-align: center;
+  padding: 1em 1.2em;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+
+.navbar a:hover {
+  background-color: #BFF0D4;
+  color: #2f4778;
+}
+
+
 .main{
   margin-left: 15em
 }
