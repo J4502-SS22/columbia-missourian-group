@@ -6,6 +6,13 @@ body {
   margin-left: 1000px;
 }
 
+h1 {
+  font-family: "Domine", serif;
+  font-size: 36pt;
+  color: black;
+  /*headline style css*/
+}
+
 h2 {
   font-family: "Domine", serif;
   font-size: 24pt;
