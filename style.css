@@ -69,7 +69,9 @@ h1, h2, h3, h4, h5, h6 {
  overflow-x: hidden;
  padding: 1em;
 }
-
+.navbar.icon {
+  display: none;
+}
 
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -83,9 +85,24 @@ margin-right: 1em;
 width: 25%;}
 
 }
-  @media screen and (max-width: 700px) {
-    .main {margin-left:1em}}
-
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 
 .sidebar a {float: left;}
   div.content {margin-left: 0;}
