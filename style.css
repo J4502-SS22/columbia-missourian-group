@@ -4,6 +4,7 @@ body {
   color: black;
   background-color: #ffffff;
   margin-left: 1000px;
+  margin-right: 200px;
 }
 
 h1 {
@@ -83,8 +84,9 @@ background-color: #BFF0D4;
   color: #2f4778;
 }
 
-.main{
+.main {
   margin-left: 15em
+
 }
 .wrapper {
     margin: 0 auto;
