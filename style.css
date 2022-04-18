@@ -66,6 +66,16 @@ h1, h2, h3, h4, h5, h6 {
  padding: 1em;
 }
 
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
 .navbar{
 background-color: #BFF0D4;
 }
