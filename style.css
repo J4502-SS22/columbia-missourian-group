@@ -95,8 +95,8 @@ overflow: hidden;
 margin-top: 3em;}
 
 .topnav a {
-  float: left;
-  display: block;
+  float: none;
+  display: inline-block;
   color: #2f4778;
   text-align: center;
   padding: 1em 1.2em;
