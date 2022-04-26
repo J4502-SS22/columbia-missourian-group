@@ -56,14 +56,16 @@
 		</div>
 
 		<div class="main">
-		<nav class="navbar">
-			<ul style="list-style-type:none">
-			<li><a href= "index.html">Home</a></li>
-			<li><a href= "history.html">History</a></li>
-			<li><a href= "voices.html">Voices</a></li>
-			<li><a href= "systems.html">Systems</a></li>
-		</nav>
-<br><br><br>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<br><div class="topnav" id="myTopnav">
+					<a href= "index.html">Home</a>
+					<a href= "history.html">History</a>
+					<a href= "voices.html" class="active">Voices</a>
+					<a href= "systems.html">Systems</a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i></a>
+			</div>
+<br><br><br><br>
 
 		<h1>Talking trash</h1>
 		<br></br>
@@ -163,5 +165,17 @@
 			} -->
 
 </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
   </body>
 </html>
