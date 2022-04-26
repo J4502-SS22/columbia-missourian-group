@@ -1,4 +1,4 @@
-<script type="text/javascript">
+"use strict";
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "navbar") {
@@ -7,4 +7,3 @@ function myFunction() {
     x.className = "navbar";
   }
 }
-</script>
