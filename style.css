@@ -10,6 +10,8 @@ h1 {
   font-family: "Domine", serif;
   font-size: 36pt;
   color: black;
+  margin: 25px 25px 0px 25px;
+  text-align: center;
   /*headline style css*/
 }
 
@@ -156,16 +158,6 @@ overflow: hidden;
   box-sizing: border-box;
 }
 
-h1 {
-  margin: 25px 25px 0px 25px;
-  text-align: center;
-}
-
-body {
-  margin: 0;
-  font-family: Domine
-  background: #ffffff;
-}
 
 .timeline {
   position: relative;
