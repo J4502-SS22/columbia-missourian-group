@@ -20,13 +20,22 @@
 	.image-align-right {
 		float: right;
 		padding: 5px 20px;
-		width: 50%;
+		width: 60%;
 	}
-	.caption {
+	.caption-right {
 		text-align: right;
 		font-size: 75%;
 		clear: right;
 		padding: 0px 60px;
+	}
+	.image-align-left {
+		float:left;
+		width: 55%;
+		padding: 0px 20px 10px 0px;
+	}
+	.caption-left {
+		font-size: 75%;
+		clear: left;
 	}
 	</style>
 
@@ -66,30 +75,35 @@
 		</p>
 	<br>
 	<br>
-	<p class="caption">Caption placeholder: a Trash Bag</p>
+	<p class="caption-right">Caption placeholder: a Trash Bag</p>
 </div>
-
-		<img src="https://loremflickr.com/640/360" alt="Curbsides">
-		<p>caption: a curb</p>
+<div>
+		<img src="https://loremflickr.com/640/360" alt="Curbsides" class="image-align-left">
 		<h3>Curbside pickup</h3>
-		<p>
+		<p style="padding-right: 50px">
 			If Columbia residents have large items they wish to dispose of, they must complete a request form online and pay extra for the service.
 		</p>
 	<br>
 	<br>
-		<img src="https://loremflickr.com/640/360" alt="Dumpsters">
-		<p>caption: dumpster</p>
+		<p class="caption-left">caption: a curb</p>
+</div>
+<div>
+	<figure>
+		<img src="https://loremflickr.com/640/360" alt="Dumpsters" class="image-align-right">
+	</figure>
 		<h3>Dumpsters</h3>
 		<p>For residents who do not receive curbside collection -- typically those living in apartment complexes -- there are usually dumpsters nearby. These do not require the City-provided trash bags.
 		</p>
-
-		<img src="https://loremflickr.com/640/360" alt="Roll carts">
-		<p>caption: roll carts</p>
+		<p class="caption-right">caption: dumpster</p>
+</div>
+<div>
+		<img src="https://loremflickr.com/640/360" alt="Roll carts" class="image-align-left">
 		<h3>Roll carts</h3>
-		<p>In other places, people place their trash bags into roll carts they leave at the curb.
+		<p style="padding-right: 40px">In other places, people place their trash bags into roll carts they leave at the curb.
 		</p>
+		<p class="caption-left">caption: roll carts</p>
 	<br>
-
+</div>
 	</div>
 
 	<script>
