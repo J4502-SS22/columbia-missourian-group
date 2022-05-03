@@ -152,8 +152,10 @@ margin-top: 3em;}
         text-align: right;
         margin: 0px 25px 0px 25px;
       }
-        #for{
+        .for{
           margin: 0px 25px 0px 0px;
+          flex-wrap:wrap;
+
         }
         #heading1{
           margin: 25px 25px 0px 25px;
@@ -174,10 +176,9 @@ margin-top: 3em;}
         }
 
         .forimage{
-
           float:right;
           max-width:100%;
-          min-width:200px;
+          min-width:20%;
           margin-left:4em;
           margin-right:4em;
           width:25%;
