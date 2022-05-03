@@ -176,10 +176,10 @@ margin-top: 3em;}
           float:right;
           align-content:right;
           max-width:25%;
-
           margin-left:4em;
           margin-right:4em;
-
+          margin-top:0em;
+          margin-bottom:0em;
           height:auto;
         }
 
