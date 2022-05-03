@@ -172,6 +172,7 @@ margin-top: 3em;}
         }
 
         .forimage{
+          display:flex;
           float:right;
           align-content:right;
           max-width:25%;
