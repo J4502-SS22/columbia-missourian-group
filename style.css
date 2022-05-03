@@ -147,6 +147,7 @@ margin-top: 3em;}
 }
 
       #against{
+        flex-basis: 50%;
         text-align: right;
         margin: 0px 25px 0px 25px;
       }
@@ -163,17 +164,40 @@ margin-top: 3em;}
         #intro{
           text-align: center;
         }
-        #attribution{
-          flex-wrap: wrap;
-        }
+
         .box{
           display: flex;
           width: 50%;
           justify-content: flex-start;
           flex-wrap: wrap;
         }
+
         .forimage{
+          flex-basis:50%;
           float:right;
+          margin-left:4em;
+          margin-right:4em;
+          width:25%;
+          height:25%;
+        }
+
+        .againstimage{
+          flex-basis:50%;
+          margin-left:4em;
+          margin-right:4em;
+          width:10%;
+          height:10%;
+          float:left;
+
+        }
+
+        .cleanstreet{
+          flex-basis:50%;
+          float:right;
+          margin-left:4em;
+          margin-right:4em;
+          width:25%;
+          height:25%;
         }
 
     </style>
