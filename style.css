@@ -174,7 +174,7 @@ margin-top: 3em;}
         }
 
         .forimage{
-          flex-basis:50%;
+
           float:right;
           max-width:100%;
           min-width:200px;
@@ -182,16 +182,6 @@ margin-top: 3em;}
           margin-right:4em;
           width:25%;
           height:25%;
-        }
-
-        .againstimage{
-          flex-basis:50%;
-          margin-left:4em;
-          margin-right:4em;
-          width:10%;
-          height:10%;
-          float:left;
-
         }
 
         .cleanstreet{
