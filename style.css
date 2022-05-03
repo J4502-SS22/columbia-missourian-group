@@ -175,6 +175,8 @@ margin-top: 3em;}
         .forimage{
           flex-basis:50%;
           float:right;
+          max-width:100%;
+          min-width:200px;
           margin-left:4em;
           margin-right:4em;
           width:25%;
