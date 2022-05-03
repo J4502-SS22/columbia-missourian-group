@@ -146,6 +146,38 @@ margin-top: 3em;}
     padding: 0 80px;
 }
 
+      #against{
+        text-align: right;
+        margin: 0px 25px 0px 25px;
+      }
+        #for{
+          margin: 0px 25px 0px 0px;
+        }
+        #heading1{
+          margin: 25px 25px 0px 25px;
+          text-align: center;
+        }
+        #heading2{
+          margin: 0px 25px 25px 25px;
+        }
+        #intro{
+          text-align: center;
+        }
+        #attribution{
+          flex-wrap: wrap;
+        }
+        .box{
+          display: flex;
+          width: 50%;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        }
+        .forimage{
+          float:right;
+        }
+
+    </style>
+
 .about-timeline{background-color:#f3f3f3; padding: 140px 0 125px;}
 
 .timeline-box h6{font-size: 55px; line-height: 1; color: #d21e1e; font-weight: 700; font-family: 'Poppins', sans-serif;background-color: #f3f3f3;position: relative; z-index: 1; display: inline-block; width: auto; padding: 0 10px;margin-top: 0; transform: translate(0,-50%);}
