@@ -200,6 +200,15 @@ margin-top: 3em;}
           height:25%;
         }
 
+        .moneyimage{
+          flex-basis:50%;
+          float:right;
+          margin-left:4em;
+          margin-right:4em;
+          width:30%;
+          height:30%;
+        }
+
     </style>
 
 .about-timeline{background-color:#f3f3f3; padding: 140px 0 125px;}
