@@ -147,6 +147,30 @@ margin-top: 3em;}
     padding: 0 80px;
 }
 
+.image-align-right {
+  float: right;
+  padding: 5px 20px;
+  width: 60%;
+}
+.caption-right {
+  text-align: right;
+  font-size: 75%;
+  clear: right;
+  padding: 0px 60px 0px 40%;
+  font-style: italic;
+}
+.image-align-left {
+  float:left;
+  width: 55%;
+  padding: 0px 20px 5px 0px;
+}
+.caption-left {
+  font-size: 75%;
+  clear: left;
+  font-style: italic;
+  padding-right: 45%;
+}
+
 
         .for{
 
