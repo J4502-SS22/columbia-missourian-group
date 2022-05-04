@@ -173,8 +173,8 @@ margin-top: 3em;}
 
 
         .for{
+          float:left;
 
-          flex-wrap:wrap;
 
         }
         #heading1{
@@ -195,19 +195,20 @@ margin-top: 3em;}
           flex-wrap: wrap;
         }
 
-        .forimage{
-          display:flex;
+
+      .forimage{
           float:right;
-          align-content:right;
           max-width:25%;
           max-height:25%;
           margin-left:4em;
           margin-right:4em;
-          margin-top:0em;
-          margin-bottom:0em;
+          
           height:auto;
           width:25%;
         }
+
+
+
 
 
 
