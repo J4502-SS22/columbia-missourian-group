@@ -166,7 +166,7 @@ margin-top: 3em;}
 
         .box{
           display: flex;
-          width: 50%;
+          max-width: 50%;
           justify-content: flex-start;
           flex-wrap: wrap;
         }
@@ -176,11 +176,13 @@ margin-top: 3em;}
           float:right;
           align-content:right;
           max-width:25%;
+          max-height:25%!important;
           margin-left:4em;
           margin-right:4em;
           margin-top:0em;
           margin-bottom:0em;
           height:auto;
+          width:25%;
         }
 
 
